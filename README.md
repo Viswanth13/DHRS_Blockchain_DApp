@@ -8,7 +8,6 @@ MyDapp is a decentralized healthcare system built using Ethereum smart contracts
 - **Doctor Registration**: Admin can register doctors on the platform.
 - **Medical Record Management**: Patients can update their medical records and store them on the IPFS (InterPlanetary File System).
 - **Access Control**: Patients can grant or revoke access to their medical records for registered doctors.
-- **Emergency Access**: Admin has the ability to access any patient's medical record in case of emergencies.
 - **Token System**: Includes a basic token system for managing balances.
 
 ## Installation
