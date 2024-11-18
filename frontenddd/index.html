@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare System DApp</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Decentralized Healthcare System</h1>
+
+        <!-- MetaMask Connection -->
+        <div id="accountAddress">MetaMask Account: Not Connected</div>
+        <button id="connectButton">Connect MetaMask</button>
+
+        <!-- Patient Registration Section -->
+        <h2>Patient Registration</h2>
+        <button id="registerPatient">Register as Patient</button>
+
+        <!-- Doctor Registration (Admin Only) -->
+        <h2>Doctor Registration (Admin Only)</h2>
+        <input type="text" id="doctorAddress" placeholder="Enter Doctor Address" pattern="^0x[a-fA-F0-9]{40}$"
+            title="Please enter a valid Ethereum address.">
+        <button id="registerDoctor">Register Doctor</button>
+
+        <!-- Medical Records Section -->
+        <h2>Medical Records</h2>
+        <input type="text" id="diagnosis" placeholder="Enter Diagnosis">
+        <input type="text" id="treatment" placeholder="Enter Treatment">
+        <button id="updateRecord">Update Medical Record</button>
+
+        <!-- Grant Access Section -->
+        <h2>Grant Access</h2>
+        <input type="text" id="grantAccessAddress" placeholder="Doctor's Address" pattern="^0x[a-fA-F0-9]{40}$"
+            title="Please enter a valid Ethereum address.">
+        <button id="grantAccess">Grant Access to Doctor</button>
+
+        <!-- View Medical Records -->
+        <h2>View Medical Records</h2>
+        <input type="text" id="viewPatientAddress" placeholder="Patient's Address" pattern="^0x[a-fA-F0-9]{40}$"
+            title="Please enter a valid Ethereum address.">
+        <button id="viewRecord">View Medical Record</button>
+
+        <div id="medicalRecord"></div> <!-- Placeholder for displaying medical records -->
+    </div>
+
+    <!-- Web3.js for Blockchain interaction -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.5.2/dist/web3.min.js"></script>
+    <!-- Main JavaScript file for DApp interaction -->
+    <script src="main.js"></script>
+</body>
+
+</html>
