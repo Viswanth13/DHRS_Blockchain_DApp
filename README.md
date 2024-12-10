@@ -11,7 +11,7 @@ MyDapp is a decentralized healthcare system built using Ethereum smart contracts
 - **Token System**: Includes a basic token system for managing balances.
 
 ## Demo Video
-https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26627751-ddfd-4c59-a457-b22c0184bd47![image](https://github.com/user-attachments/assets/892fa449-30d8-4122-ba34-d7c662964e18)
+https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26627751-ddfd-4c59-a457-b22c0184bd47
 
 
 ## Installation
